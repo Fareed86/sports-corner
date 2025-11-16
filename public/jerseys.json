@@ -1,0 +1,37 @@
+[
+  {
+    "s_id":"1",
+    "name": "Oakley Red sunglass",
+    "img" : "https://i.ibb.co.com/tMfYKrzv/IMG-4636.jpg",
+    "price": 79.99,
+    "description": "Frosted white Oakley Red sunglasses with a rounded square shape and dark lenses, creating a clean, understated, and sophisticated style."
+  },
+  {
+    "s_id":"2",
+    "name": "Ferrari Red sunglass",
+    "img" : "https://i.ibb.co.com/hFndy7z9/IMG-4646.jpg",
+    "price": 49.99,
+    "description": "Side-view of sporty aviator sunglasses with a brown tortoiseshell frame, showing the thick black temples and subtle branding"
+  },
+  {
+    "s_id":"3",
+    "name": "Oakley BLue sunglass",
+    "img" : "https://i.ibb.co.com/7JSMw3Np/IMG-4650.jpg",
+    "price": 59.99,
+    "description": "Oversized double-bridge aviator sunglasses with a black and brown fade frame, offering full sun protection with dark lenses."
+  },
+  {
+    "s_id":"4",
+    "name": "Oakley Black sunglass",
+    "img" : "https://i.ibb.co.com/5gNTs5kB/IMG-4657.jpg",
+    "price": 59.99,
+    "description": "Dynamic side-profile of black Oakley sports sunglasses, showing the aerodynamic wraparound design and comfortable temple grip."
+  },
+  {
+    "s_id":"5",
+    "name": "Ferrari Red sunglass",
+    "img" : "https://i.ibb.co.com/nqsWzFM6/IMG-4685.jpg",
+    "price": 59.99,
+    "description": "Close-up of sleek Ferrari Red sports sunglasses, highlighting the Prizm lens technology and dynamic, aerodynamic frame design."
+  }
+]
