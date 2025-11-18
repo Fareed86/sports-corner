@@ -6,7 +6,7 @@ const SunglassSection = () => {
     const [sunglasses, setSunglasses] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/sunglasses')
+        fetch('https://sports-corner-server.vercel.app/sunglasses')
             .then((res) => res.json())
             .then((data) => {
                 const firstThree = data.slice(0, 3);

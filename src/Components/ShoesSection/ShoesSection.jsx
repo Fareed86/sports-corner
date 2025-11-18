@@ -6,7 +6,7 @@ const ShoesSection = () => {
     const [shoes, setShoes] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/shoes')
+        fetch('https://sports-corner-server.vercel.app/shoes')
             .then((res) => res.json())
             .then((data) => {
                 const firstThree = data.slice(0, 3);
@@ -43,10 +43,10 @@ const ShoesSection = () => {
                 ))}
             </div>
             <div className="mt-6 flex justify-center ">
-                    <Link className="flex items-center bg-blue-500 text-white gap-2 px-4 py-2 text-lg font-semibold rounded-md hover:text-blue-600 hover:bg-white transition" to='/shoes'>
-                        <p>More Collections</p>
-                        <FaArrowCircleRight className="text-2xl" />
-                    </Link>
+                <Link className="flex items-center bg-blue-500 text-white gap-2 px-4 py-2 text-lg font-semibold rounded-md hover:text-blue-600 hover:bg-white transition" to='/shoes'>
+                    <p>More Collections</p>
+                    <FaArrowCircleRight className="text-2xl" />
+                </Link>
             </div>
         </div>
     );

@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaArrowCircleRight } from 'react-icons/fa';
 import { Link, useLoaderData } from 'react-router-dom';
 import Navbar from '../Components/Navbar/Navbar';
 import Footer from '../Components/Footer/Footer';

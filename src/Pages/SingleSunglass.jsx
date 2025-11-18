@@ -4,7 +4,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import { FaCartShopping } from "react-icons/fa6";
 import toast from "react-hot-toast";
 
-const Singleshoe = () => {
+const SingleSunglass = () => {
     const [selectedSize, setSelectedSize] = useState("");
     const sizes = ["S", "M", "L"];
     const [quantity, setQuantity] = useState(1);
@@ -108,4 +108,4 @@ const Singleshoe = () => {
     );
 };
 
-export default Singleshoe;
+export default SingleSunglass;

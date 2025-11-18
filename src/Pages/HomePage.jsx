@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar/Navbar';
 import Banner from '../Components/Banner/Banner';
 import JerseySection from '../Components/JerseySection/JerseySection';
 import ShoesSection from '../Components/ShoesSection/ShoesSection';
-import SunglassSection from '../Components/sunglassSection/sunglassSection';
+import SunglassSection from '../Components/SunglassSection/SunglassSection';
 import Footer from '../Components/Footer/Footer';
 
 const HomePage = () => {
